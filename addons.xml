@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="repository.discavehb" name="DiscaveHB Repositorio" version="0.0.1" provider-name="Discave">
 	<extension point="xbmc.addon.repository" name="Discave Repositorio">
@@ -13,7 +13,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
 <addon id="plugin.video.tugak"
        name="Tuga Kids"
        version="1.2"
@@ -34,7 +33,6 @@
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="script.module.livestreamer" optional="true"/>
-
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
